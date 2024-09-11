@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.uppernav{
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.uppernav img{
+    margin:auto;
+    width:50%;
+    height: auto;
+}
+
+.uppernav input{
+    height: 30px;
+    margin: auto;
+    width: 300px;
+}
+
+.uppernav .icons{
+    margin: auto;
+}
+
+.uppernav .icons .bi{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.navbar{
+    background-color: rgb(9, 113, 225);
+    color: aliceblue;
+    padding: 20px;
+}
+
+.navbar a{
+    padding: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 650;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    color: black;
+    background-color: #fff;
+
+}
+
+.banner{
+    background-image:url('../Assets/banner-bg.jpg');
+    background-size: "cover";
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.banner .left{
+    margin-top: 4rem;
+}
+
+.banner .left h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.banner .left p{
+    font-size: 20px;
+    font-weight:300;
+    margin:2rem;
+}
+
+.banner .left button{
+    background-color: rgb(9, 113, 225);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.banner .left button:hover{
+    background-color: #fff;
+    color: rgb(9, 113, 225);
+    border: 1px solid rgb(9, 113, 225);
+}
+
+.banner .right{
+    margin-top: 4rem;
+}
+
+.banner .right img{
+    width: 180px;
+    padding: 20px;
+}
+
+.banner .right img:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+
+.iconContainer{
+    display: flex;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.iconContainer .icon{
+    color: black;
+    font-size: 3rem;
+    margin: auto;
+    margin-top: -6rem;
+    display: flex;
+}
+.iconContainer .icon i{
+    font-size: 4rem;
+    padding: 1rem;
+    margin: auto;
+}
+
+.iconContainer .icon h6{
+    margin: auto;
+}
+
+.newArrivals .topic{
+    margin: auto;
+    width: 200px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.newArrivals .box{
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 9rem;
+    margin-top: 2rem;
+}
+
+.newArrivals .images{
+    border: 1px solid black;
+    background-color: #ebebeb;
+    margin: 10px;
+    
+}
+
+.newArrivals .box img{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
+
+.newArrivals .box button{
+    background-color: rgb(9, 113, 225);
+    padding: 10px;
+    color: #ebebeb;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 1px solid rgb(9, 113, 225);
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.newArrivals .box button:hover{
+    border: 1px solid rgb(9, 113, 225);
+    color: rgb(9, 113, 225);
+    background-color: #ebebeb;
+}
